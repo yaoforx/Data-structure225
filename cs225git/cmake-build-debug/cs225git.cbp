@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cs225git"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yaoxiao/cs225git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yaoxiao/cs225git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yaoxiao/cs225git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cs225git">
+				<Option output="/Users/yaoxiao/cs225git/cmake-build-debug/cs225git" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaoxiao/cs225git/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 cs225git"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cs225git/fast">
+				<Option output="/Users/yaoxiao/cs225git/cmake-build-debug/cs225git" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaoxiao/cs225git/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 cs225git/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yaoxiao/cs225git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/avltree.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/avltree.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/avltree_given.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/coloredout.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/coloredout.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/printtree.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_avl/tests/basic.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/benchmark.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/benchmark_test.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/btree.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/btree.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/btree_given.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/dict_racer.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/test_btree.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_btree/tests/basic.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/sketchify.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/sketchify.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_debug/tests/unit_tests.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/demo.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/dsets.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/dsets.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/edge.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/graph.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/graph.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/graph_tools.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/graph_tools.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/lab_graphs_random.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/lab_graphs_random.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/premade_graphs.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/premade_graphs.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/tests.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/tests/basic.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_graphs/tests/catchlib.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/anagram_finder.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/anagram_finder.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/anagramtest.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/char_counter.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/char_counter.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/charcount.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/hashes.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/hashes.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/hashtable.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/htiterator.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/htiterator.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/lfparse.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/logfile_generator.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/logfile_parser.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/logfile_parser.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/lphashtable.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/lphashtable.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/lpiterator.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/lpiterator.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/schashtable.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/schashtable.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/sciterator.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/sciterator.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/tests/basic.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/tests/catchlib.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/textfile.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/textfile.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/word_counter.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/word_counter.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_hash/wordcount.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/coloredout.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/coloredout.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/heap.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/heap.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/printheap.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/printtree.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/random.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/testheap.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/tests/basic.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_heaps/tests/catchlib.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/binary_file_reader.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/binary_file_reader.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/binary_file_writer.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/binary_file_writer.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/decoder.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/decoder.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/decoder_prog.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/encoder.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/encoder.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/encoder_prog.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/frequency.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/frequency.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/huffman_tree.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/huffman_tree.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/print_as_ascii.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/printtree.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/tests/basic.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_huffman/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/circle.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/circle.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/color.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/drawable.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/flower.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/flower.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/line.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/line.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/rectangle.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/rectangle.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/shape.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/shape.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/test_constructor.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/test_destructor.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/test_pure_virtual.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/test_slicing.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/test_virtual.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/tests/basic.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/tests/catchlib.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/triangle.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/triangle.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/truck.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/truck.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/vector2.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_inheritance/vector2.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/lab_intro.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/lab_intro.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/tests/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/tests/part1.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_intro/tests/part2.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/allocator.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/allocator.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/fileio.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/fileio.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/letter.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/letter.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/room.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/room.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/tests/catch_main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/tests/catchlib.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/tests/catchlib.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_memory/tests/unit_tests.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/NimLearner.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/NimLearner.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/edge.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/graph.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/graph.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/lab_graphs_random.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/lab_graphs_random.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_ml/tests/unit_tests.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/anagram_dict.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/anagram_dict.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/anagram_finder.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/cartalk_puzzle.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/cartalk_puzzle.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/common_words.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/common_words.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/fac.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/fac.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/fib.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/fib.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/fib_generator.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/find_common_words.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/homophone_puzzle.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/pronounce_dict.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/pronounce_dict.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/tests/catchlib.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_puzzles/tests/unit_tests.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_quacks/exercises.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_quacks/exercises.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_quacks/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_quacks/quackfun.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_quacks/quackfun.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_quacks/tests/basic.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_quacks/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/TreeTraversals/InorderTraversal.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/TreeTraversals/PreorderTraversal.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/TreeTraversals/TreeTraversal.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/TreeTraversals/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/binarytree.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/binarytree.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/binarytree_given.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/coloredout.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/coloredout.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/printtree.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/random.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/tests/basic.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/lab_trees/tests/catchlib.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/mp1.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/mp1.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp1/tests/unit_tests.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/Image.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/Image.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/StickerSheet.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/StickerSheet.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/mp2-1.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/tests/part1.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp2/tests/part2.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/debug.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/list-given-inl.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/list-inl.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/list-iter.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/list.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/tests/tests_helper.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/tests/tests_part1.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp3/tests/tests_part2.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/Animation.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/Animation.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/FloodFilledImage.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/FloodFilledImage.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/Point.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/Point.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/ColorPicker.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/GradientColorPicker.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/GradientColorPicker.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/GridColorPicker.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/GridColorPicker.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/MyColorPicker.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/MyColorPicker.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/RainbowColorPicker.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/RainbowColorPicker.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/SolidColorPicker.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/colorPicker/SolidColorPicker.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/imageTraversal/BFS.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/imageTraversal/BFS.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/imageTraversal/DFS.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/imageTraversal/DFS.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/imageTraversal/ImageTraversal.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/imageTraversal/ImageTraversal.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/tests/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/tests/testmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/tests/tests_part1.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp4/tests/tests_part2.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/kdtree.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/kdtree.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/kdtree_extras.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/maptiles.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/maptiles.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/mosaiccanvas.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/mosaiccanvas.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/point.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/point.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/sourceimage.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/sourceimage.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/tests/tests_part1.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/tests/tests_part2.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/tileimage.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/tileimage.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/util/coloredout.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/util/coloredout.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/util/no_sort.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/util/util.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp5/util/util.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/gdb-examples/list.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/gdb-examples/loop.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/gdb-examples/playground.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/gdb-examples/recurse.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/gdb-examples/swap.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/gdb-examples/switch.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/skipList.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/skipList.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/skipList_given.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/skipNode.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/skipNode.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp6/tests/unit_tests.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/cs225/HSLAPixel.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/cs225/HSLAPixel.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/cs225/PNG.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/cs225/PNG.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/cs225/RGB_HSL.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/cs225/catch/catch.hpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/cs225/catch/catchmain.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/cs225/lodepng/lodepng.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/cs225/lodepng/lodepng.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/dsets.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/dsets.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/main.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/maze.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/maze.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/testdsets.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/tests/mazereader.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/tests/mazereader.h">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/tests/test_part1.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/tests/test_part2.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/mp7/testsquaremaze.cpp">
+			<Option target="cs225git"/>
+		</Unit>
+		<Unit filename="/Users/yaoxiao/cs225git/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
